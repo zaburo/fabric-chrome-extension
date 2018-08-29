@@ -26,9 +26,9 @@ Binh Nguyen (binhn, binh1010010110@gmail.com)
 - `cd fabric-network/Server`
 
 If you have Fabric 1.2 installed: 
-- `cd bash startFabric.sh`
-- In a second tab in the same directory run `bash registerAdmin.sh` and then `bash registerUser.sh`.
-- In the third tab (same location) run `nodemon server.js`.
+- `bash startFabric.sh`
+- In a second tab in the same directory run `node registerAdmin.js` and then `node registerUser.js`.
+- In the third tab (same location) run `node server.js`.
 
 If you do not have Hyperledger Fabric Installed: 
 run `setup.sh`. (This will install Fabric, register Admin/User, launch a fabric network, and start the middleware automatically)
